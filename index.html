@@ -25,5 +25,11 @@
         <div id="overlay">
             <!-- hidden overlay that comes into effect when menu is opened -->
         </div>
+        <script>
+            function printWidth(){
+                document.getElementById("banner").innerHTML = "<h1>"+document.getElementsByTagName("body")[0].offsetWidth+"</h1>"
+                }
+            setInterval(printWidth,50)
+        </script>
     </body>
 </html>
