@@ -1,5 +1,7 @@
 # Time Report
 
+> Time remaining: 27h 50m
+
 ## Wednesday 17th November 2021
 
 ### 10:30 through 12:10
