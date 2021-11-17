@@ -1,8 +1,12 @@
 # Time Report
 
-> Write about what you have done and how long you have worked on each part of the project.
+## Wednesday 17th November 2021
 
-For example: 
-
-- 2021-10-15 18:00 Worked for 1 hour. I have done:
-  - *List the things you have done.*
+### 10:30 through 12:10
+    [x] Generated colour scheme.
+    [x] Implemented basic layout.
+    [x] Set up dynamic sizing based on screen width.
+    [x] Implemented prototype sort function.
+    [ ] Implemented menu
+    [ ] Create about-me and 3rd-party pages
+    [ ] Implement dynamic tile database
