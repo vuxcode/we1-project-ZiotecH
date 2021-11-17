@@ -2,7 +2,8 @@
 
 > Time remaining: 27h 50m
 
-> Progress estimation: 15% complete
+> Progress estimation: ![15%](https://progress-bar.dev/15)
+
 ## Wednesday 17th November 2021
 
 ### 10:30 through 12:10
