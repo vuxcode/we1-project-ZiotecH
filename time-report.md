@@ -1,8 +1,9 @@
 # Time Report
 
-> Time remaining: 27h 50m
+#### Progress estimation
+- Time remaining: 27h 50m
+- ![15%](https://progress-bar.dev/15)
 
-> Progress estimation: ![15%](https://progress-bar.dev/15)
 
 ## Wednesday 17th November 2021
 
