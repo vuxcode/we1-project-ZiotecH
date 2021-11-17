@@ -1,0 +1,74 @@
+/* CSS HEX */
+:root{
+    --rhythm: #7f7cafff;
+    --dark-purple: #291528ff;
+    --rich-black: rgb(21, 12, 54);
+    --polished-pine: #539987ff;
+    --opal: #a3c4bcff;
+}
+/* Generated with coolors.co */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--rich-black);
+}
+
+#grid-container{
+    width:100vw;
+    height: calc(100vh - 150px - 2px);
+}
+
+#grid{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display:grid;
+    grid:auto-flow 5px;
+}
+
+.tile{
+    min-width: 100px;
+    min-height: 100px;
+    width: 5vh;
+    height: 5vh;
+    background-color: var(--dark-purple);
+    border:solid thin var(--rhythm);
+    color:var(--rhythm);
+}
+
+.programming{
+
+}
+
+.modding{
+
+}
+
+.artwork{
+
+}
+
+#banner{
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    min-width: 800px;
+    width:67vw;
+    margin:0 auto;
+    height:150px;
+    border:solid 2px var(--rhythm);
+    border-top: none;
+}
+
+#banner h1{
+    position: relative;
+    font-size: 80px;
+    color: var(--rhythm)
+}
+
+#banner, .tile{
+    background-color: var(--dark-purple);
+}
