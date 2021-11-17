@@ -5,8 +5,59 @@
     --rich-black: rgb(21, 12, 54);
     --polished-pine: #539987ff;
     --opal: #a3c4bcff;
+    --grid-columns: 4;
 }
 /* Generated with coolors.co */
+@media only screen and (max-width: 800px){
+    :root{
+        --grid-columns: 2;
+    }
+    #banner{
+        border:none !important;
+        border-bottom: solid thin var(--rhythm) !important;
+        min-width: 100% !important;
+    }
+    #banner h1{
+        font-size: 45px !important;
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width: 980px){
+    :root{
+        --grid-columns: 3;
+    }
+}
+
+@media only screen and (min-width:980px) and (max-width: 1079px){
+    :root{
+        --grid-columns: 4;
+    }
+}
+
+@media only screen and (min-width:1080px) and (max-width: 1299px){
+    :root{
+        --grid-columns: 5;
+    }
+}
+
+
+@media only screen and (min-width:1300px) and (max-width: 1499px){
+    :root{
+        --grid-columns: 6;
+    }
+}
+
+@media only screen and (min-width:1500px) and (max-width: 1699px){
+    :root{
+        --grid-columns: 7;
+    }
+}
+
+@media only screen and (min-width:1700px){
+    :root{
+        --grid-columns: 8;
+    }
+}
 
 *{
     margin: 0;
@@ -15,11 +66,13 @@
 
 body{
     background-color: var(--rich-black);
+    overflow:hidden;
 }
 
 #grid-container{
+    padding-top: 50px;
     width:100vw;
-    height: calc(100vh - 150px - 2px);
+    height: calc(100vh - 200px - 2px);
 }
 
 #grid{
@@ -28,8 +81,7 @@ body{
     height: 100%;
     overflow-y: scroll;
     display:grid;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(calc(100vw / 200px), 1fr);
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
     column-gap: 10px;
     row-gap: 20px;
     justify-items: center;
@@ -46,15 +98,16 @@ body{
 }
 
 .programming{
-
 }
 
 .modding{
-
 }
 
 .artwork{
+}
 
+.hidden{
+    display:none !important;
 }
 
 #banner{
@@ -70,8 +123,14 @@ body{
 
 #banner h1{
     position: relative;
-    font-size: 80px;
+    font-size: 60px;
     color: var(--rhythm)
+}
+
+@media only screen and (min-width:1525px){
+    #banner h1{
+        font-size: 80px !important;
+    }
 }
 
 #banner, .tile{
