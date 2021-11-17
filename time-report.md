@@ -2,6 +2,7 @@
 
 #### Progress Report
 Time remaining: 27h 50m - ![93%](https://progress-bar.dev/93)
+
 Estimated completion: ![15%](https://progress-bar.dev/15)
 
 
