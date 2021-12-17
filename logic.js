@@ -14,13 +14,13 @@ request.responseType = 'json';
 request.send();
 
 request.onload = function() {
-    const tiles = request.tiles;
-    for(var i = 0; i < tiles.length; i++){
+    const tileList = request.response;
+    for(var i = 0; i < tileList.length; i++){
         var tmpTile = document.createElement("div");
         tmpTile.classList.add("tile");
-        tmpTile.classList.add(tiles[i].type);
-        tmpTile.style.backgroundImage = tiles[i].image;
-        tmpTile.dataset.url = tiles[i].url;
+        tmpTile.classList.add(tileList[i].type);
+        tmpTile.style.backgroundImage = tileList[i].image;
+        tmpTile.dataset.url = tileList[i].url;
         grid.appendChild(tmpTile);
     }
 }
