@@ -1,12 +1,44 @@
 [
     {
         "type": "programming",
-        "image": "",
-        "url": ""
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "url": "https://github.com/ZiotecH/mjarni-posting",
+        "title":"Automatic Sticker Tool"
+    },
+    {
+        "type": "programming",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "url": "https://github.com/ZiotecH/mc-manager",
+        "title":"Mincraft Server Hosting Tool"
+    },
+    {
+        "type": "programming",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "url": "https://github.com/ZiotecH/save-manager",
+        "title":"Simple Save-Transfer Tool"
+    },
+    {
+        "type": "programming",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "url": "https://github.com/ZiotecH/ms-sysinfo",
+        "title":"System Info Tool"
     },
     {
         "type": "modding",
-        "image": "",
-        "url": ""
+        "image": "https://steamuserimages-a.akamaihd.net/ugc/771743400539609281/F72CABA8B98179D430CCDAFC5C84815CFA65ACF0/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+        "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2014841857",
+        "title":"DIoAS for HoI4"
+    },
+    {
+        "type": "modding",
+        "image":"https://steamuserimages-a.akamaihd.net/ugc/771726758020422074/73246841DF8DD2BD27BFC26597EB3387F621C76B/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+        "url":"https://steamcommunity.com/sharedfiles/filedetails/?id=1853264788",
+        "title": "MCSM for AoW:P"
+    },
+    {
+        "type": "artworks",
+        "image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5914eadf-f7e5-44bb-9d55-6224918d17d8/d5l1ozx-dc8ed020-e0dc-485c-8689-03de96d76891.png/v1/crop/w_263,h_350,x_0,y_0,scl_0.029222222222222,q_70,strp/mirror_of_concussions_by_ziotech_d5l1ozx-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMDAiLCJwYXRoIjoiXC9mXC81OTE0ZWFkZi1mN2U1LTQ0YmItOWQ1NS02MjI0OTE4ZDE3ZDhcL2Q1bDFvengtZGM4ZWQwMjAtZTBkYy00ODVjLTg2ODktMDNkZTk2ZDc2ODkxLnBuZyIsIndpZHRoIjoiPD05MDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.8B7-Jl-QQLJnQ2Dg9aYby1qhA3ms2g5CpYI8ZZl47es",
+        "url":"https://www.deviantart.com/ziotech",
+        "title":"DeviantArt"
     }
 ]

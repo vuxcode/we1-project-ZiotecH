@@ -21,6 +21,7 @@ request.onload = function() {
         tmpTile.classList.add(tileList[i].type);
         tmpTile.style.backgroundImage = tileList[i].image;
         tmpTile.dataset.url = tileList[i].url;
+        tmpTile.innerText = tileList[i].title;
         grid.appendChild(tmpTile);
     }
 }

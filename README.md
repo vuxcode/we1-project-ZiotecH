@@ -56,7 +56,7 @@ Below is a simple breakdown of my progress so far.
 - [x] Add image portraying intended desktop layout
 - [ ] Add image portraying intended mobile layout
 - [x] Get approval
-- [ ] Draft CSS rules (colourscheme, animations, 'paradigm')
+- [x] Draft CSS rules (colourscheme, animations, 'paradigm')
 
 * Development
 - [x] Prototype portfolio page
@@ -74,7 +74,8 @@ Below is a simple breakdown of my progress so far.
 - [ ] Decide fonts
 - [ ] Decide iconographics
 - [ ] Design favicon
-- [ ] Implement clickable boxes with thumbnails
+- [x] Implement clickable boxes with thumbnails
+- [ ] Rewrite to use flexbox
 
 * Menu
 - [x] Populate and design menu
