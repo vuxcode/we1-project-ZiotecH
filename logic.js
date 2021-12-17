@@ -17,13 +17,16 @@ request.onload = function() {
     const tileList = request.response;
     for(var i = 0; i < tileList.length; i++){
         var tmpTile = document.createElement("div");
+        var linkEl = document.createElement("a");
+        linkEl.href = tileList[i].url;
+        linkEl.target ="_blank";
+        linkEl.classList.add("tileLink");
+        tmpTile.appendChild(linkEl);
         tmpTile.classList.add("tile");
         tmpTile.classList.add(tileList[i].type);
         tmpTile.style.backgroundImage = "url("+tileList[i].image+")";
         tmpTile.dataset.url = tileList[i].url;
-        tmpTile.innerText = tileList[i].title;
-        tmpTile.addEventListener("click",function(){window.open(tileList[i].url, '_blank');})
-        grid.appendChild(tmpTile);
+        tmpTile.innerText = tileList[i].title;grid.appendChild(tmpTile);
     }
 }
 
