@@ -1,14 +1,12 @@
-{
-    "tiles": [
-        {
-            "type": "programming",
-            "image": "",
-            "url": ""
-        },
-        {
-            "type": "modding",
-            "image": "",
-            "url": ""
-        }
-    ]
-}
+[
+    {
+        "type": "programming",
+        "image": "",
+        "url": ""
+    },
+    {
+        "type": "modding",
+        "image": "",
+        "url": ""
+    }
+]
