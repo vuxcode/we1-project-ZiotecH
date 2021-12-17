@@ -22,10 +22,10 @@ request.onload = function() {
         tmpTile.classList.add(tileList[i].type);
         tmpTile.style.backgroundImage = "url("+tileList[i].image+")";
         tmpTile.dataset.url = tileList[i].url;
-        tmpTile.innerText = tileList[i].title;
         grid.appendChild(tmpTile);
         
         var linkEl = document.createElement("a");
+        linkEl.innerText = tileList[i].title;
         linkEl.href = tileList[i].url;
         linkEl.target ="_blank";
         linkEl.classList.add("tileLink");
@@ -33,19 +33,20 @@ request.onload = function() {
     }
 }
 
-var aboutMe;
+var aboutMe = document.getElementById("about");
 var portfolio = document.getElementById("portfolio");;
 var artworks = document.getElementById("artworks");;
 var programming = document.getElementById("programming");
 var modding = document.getElementById("modding");
-var contact;
-var thirdParty;
+var contact = document.getElementById("contact");
+var thirdParty = document.getElementById("thirdparty");
 
 var menuButton = document.getElementById("menuButton");
 var sideBar = document.getElementById("sidebar");
 
 var overlay = document.getElementById("overlay");
 
+aboutMe.addEventListener("click",function(){window.open(window.location+"/about/")});
 overlay.addEventListener("click",function(){toggleMenu()});
 menuButton.addEventListener("click",function(){toggleMenu()});
 portfolio.addEventListener("click",function(){toggleTiles("tile")});
