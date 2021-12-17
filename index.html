@@ -1,1 +1,32 @@
-<!-- Start writing your project code in this file! -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+        <title>Danboy's Portfolio</title>
+    </head>
+    <body>
+        <div id="banner">
+            <h1>Welcome to my portfolio!</h1>
+        </div>
+        <div id="grid-container">
+            <div id="grid">
+            </div>
+        </div>
+        <div id="sidebar" class="initial">
+            <button id="menuButton">[>]</button>
+            <!-- sidebar in resting state -->
+            <div class="menuSpacer"></div>
+            <button id="about" class="menuItem">About Me</button>
+            <button id="portfolio" class="menuItem">Portfolio</button>
+            <button id="artworks" class="menuItem">Artworks</button>
+            <button id="programming" class="menuItem">Programming</button>
+            <button id="modding" class="menuItem">Modding</button>
+            <button id="contact" class="menuItem">Contact</button> 
+            <button id="thirdparty" class="menuItem">3rd-Party</button>
+        </div>
+        <div id="overlay" class="overNone">
+            <!-- hidden overlay that comes into effect when menu is opened -->
+        </div>
+    </body>
+    <script src="./logic.js"></script>
+</html>

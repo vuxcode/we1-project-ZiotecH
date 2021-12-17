@@ -1,8 +1,23 @@
 # Time Report
 
-> Write about what you have done and how long you have worked on each part of the project.
+#### Progress Report
+Time remaining: 27h 50m - ![93%](https://progress-bar.dev/93)
 
-For example: 
+Estimated completion: ![15%](https://progress-bar.dev/15)
 
-- 2021-10-15 18:00 Worked for 1 hour. I have done:
-  - *List the things you have done.*
+
+## Wednesday 17th November 2021
+
+### 10:30 through 12:10
+    [x] Generated colour scheme.
+    [x] Implemented basic layout.
+    [x] Set up dynamic sizing based on screen width.
+    [x] Implemented prototype sort function.
+    [ ] Implemented menu
+    [ ] Create about-me and 3rd-party pages
+    [ ] Implement dynamic tile database
+
+## Friday 17th December 2021
+
+### 10:55 through 13:10
+    [x] ???
