@@ -55,11 +55,11 @@ Below is a simple breakdown of my progress so far.
 - [x] Add written draft
 - [x] Add image portraying intended desktop layout
 - [ ] Add image portraying intended mobile layout
-- [ ] Get approval
+- [x] Get approval
 - [ ] Draft CSS rules (colourscheme, animations, 'paradigm')
 
 * Development
-- [ ] Prototype portfolio page
+- [x] Prototype portfolio page
 - [ ] Prototype menu
 - [ ] Prototype about me
 - [ ] Prototype portfolio subsection A
@@ -70,7 +70,7 @@ Below is a simple breakdown of my progress so far.
 - [ ] Develop backend upload tool
 
 * Portfolio page
-- [ ] Establish layout
+- [x] Establish layout
 - [ ] Decide fonts
 - [ ] Decide iconographics
 - [ ] Design favicon
@@ -86,8 +86,8 @@ Below is a simple breakdown of my progress so far.
 - [ ] Write a simple bio
 
 * Portfolio subsections
-- [ ] Design 'filtered' view
-- [ ] Differentiate objects based on category
+- [x] Design 'filtered' view
+- [x] Differentiate objects based on category
 
 * Contact
 - [ ] Include links to social media ~~ew~~
