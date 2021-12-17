@@ -1,8 +1,8 @@
 /* CSS HEX */
 :root{
-    --rhythm: #7f7cafff;
-    --dark-purple: #291528ff;
-    --rich-black: rgb(21, 12, 54);
+    --rhythm: #F01E64;
+    --dark-purple: #780F32;
+    --rich-black: rgb(25, 25, 25);
     --polished-pine: #539987ff;
     --opal: #a3c4bcff;
     --grid-columns: 4;
@@ -71,8 +71,9 @@ body{
 
 #grid-container{
     padding-top: 50px;
-    width:100vw;
+    width: calc(100vw - 50px - 2px);
     height: calc(100vh - 200px - 2px);
+    margin-left:calc(50px + 2px);
 }
 
 #grid{
@@ -135,4 +136,145 @@ body{
 
 #banner, .tile{
     background-color: var(--dark-purple);
+}
+
+#sidebar {
+    position:fixed;
+    top:0;
+    width:250px;
+    height: 100vh;
+    background-color: var(--rich-black);
+    border:none;
+    border-right:solid 2px var(--rhythm);
+    z-index: 1;
+    color:var(--rhythm);
+}
+
+#menuButton {
+    width:40px;
+    height: 40px;
+    border-radius: 0px;
+    border:solid 2px var(--rhythm);
+    color: var(--rhythm);
+    background-color: var(--dark-purple);
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sidebar #menuButton {
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+
+@keyframes closeMenu {
+    from {
+        left:0px;
+    }
+
+    to {
+        left:-200px;
+    }
+}
+
+@keyframes openMenu {
+    from {
+        left:-200px;
+    }
+
+    to {
+        left:0px;
+    }
+}
+
+
+@keyframes hideOver {
+    from {
+        background-color: rgba(0,0,0,0.67);
+    }
+    
+    to {
+        background-color: rgba(0,0,0,0.00);
+    }
+}
+
+@keyframes showOver {
+    from {
+        background-color: rgba(0,0,0,0.00);
+    }
+    
+    to {
+        background-color: rgba(0,0,0,0.67);
+    }
+}
+
+.initial {
+    left:-200px;
+}
+
+.collapsed {
+    animation-name: closeMenu;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    left:-200px;
+}
+
+.opened {
+    animation-name: openMenu;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.menuItem {
+    position: relative;
+    border-radius: 0px;
+    border:solid 2px var(--rhythm);
+    color: var(--rhythm);
+    background-color: var(--dark-purple);
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 150px;
+    margin:5px calc( calc(250px - 150px - 2px - 2px)/2);
+}
+
+.menuSpacer {
+    height: 50px;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+#overlay {
+    position:absolute;
+    width:calc(100vw);
+    height: 100vh;
+    right:0;
+    top:0;
+}
+
+.overNone {
+    background-color: rgba(0,0,0,0);
+    pointer-events: none;
+}
+
+.overHidden {
+    animation-name: hideOver;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    background-color: rgba(0,0,0,0);
+    pointer-events: none;
+}
+
+.overShown {
+    animation-name: showOver;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    background-color:rgba(0,0,0,0.67);
 }

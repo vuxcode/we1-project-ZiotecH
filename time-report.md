@@ -16,3 +16,8 @@ Estimated completion: ![15%](https://progress-bar.dev/15)
     [ ] Implemented menu
     [ ] Create about-me and 3rd-party pages
     [ ] Implement dynamic tile database
+
+## Friday 17th December 2021
+
+### 10:55
+    [] ???
