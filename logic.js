@@ -19,9 +19,10 @@ request.onload = function() {
         var tmpTile = document.createElement("div");
         tmpTile.classList.add("tile");
         tmpTile.classList.add(tileList[i].type);
-        tmpTile.style.backgroundImage = tileList[i].image;
+        tmpTile.style.backgroundImage = "url("+tileList[i].image+")";
         tmpTile.dataset.url = tileList[i].url;
         tmpTile.innerText = tileList[i].title;
+        tmpTile.addEventListener("click",function(){window.open(tileList[i].url, '_blank');})
         grid.appendChild(tmpTile);
     }
 }
