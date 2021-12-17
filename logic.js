@@ -46,13 +46,16 @@ var sideBar = document.getElementById("sidebar");
 
 var overlay = document.getElementById("overlay");
 
-aboutMe.addEventListener("click",function(){window.open(window.location+"/about/")});
+aboutMe.addEventListener("click",function(){window.open(window.location+"about/")});
 overlay.addEventListener("click",function(){toggleMenu()});
 menuButton.addEventListener("click",function(){toggleMenu()});
 portfolio.addEventListener("click",function(){toggleTiles("tile")});
 artworks.addEventListener("click",function(){toggleTiles("artworks")});
 programming.addEventListener("click",function(){toggleTiles("programming")});
 modding.addEventListener("click",function(){toggleTiles("modding")});
+contact.addEventListener("click",function(){window.open(window.location+"contact/")});
+thirdParty.addEventListener("click",function(){window.open(window.location+"thirdparty/")});
+
 
 function toggleTiles(tileClass){
     var tiles = document.getElementsByClassName("tile");

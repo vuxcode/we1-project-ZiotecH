@@ -296,3 +296,10 @@ body{
     animation-timing-function: ease-out;
     background-color:rgba(0,0,0,0.67);
 }
+
+.bg{
+    color:var(--rhythm);
+    background: var(--rich-black);
+    text-align: center;
+    font-size: 40px;
+}
