@@ -60,11 +60,11 @@ Below is a simple breakdown of my progress so far.
 
 * Development
 - [x] Prototype portfolio page
-- [ ] Prototype menu
+- [x] Prototype menu
 - [ ] Prototype about me
-- [ ] Prototype portfolio subsection A
-- [ ] Prototype portfolio subsection B
-- [ ] Prototype portfolio subsection C
+- [x] Prototype portfolio subsection A
+- [x] Prototype portfolio subsection B
+- [x] Prototype portfolio subsection C
 - [ ] Prototype contact
 - [ ] Prototype 3rd-party lisences
 - [ ] Develop backend upload tool
@@ -77,9 +77,9 @@ Below is a simple breakdown of my progress so far.
 - [ ] Implement clickable boxes with thumbnails
 
 * Menu
-- [ ] Populate and design menu
-- [ ] Add CSS animation and JS states (opened/closed)
-- [ ] Make buttons clickable
+- [x] Populate and design menu
+- [x] Add CSS animation and JS states (opened/closed)
+- [x] Make buttons clickable
 - [ ] ~~hide easter egg~~
 
 * About me
