@@ -19,5 +19,5 @@ Estimated completion: ![15%](https://progress-bar.dev/15)
 
 ## Friday 17th December 2021
 
-### 10:55
-    [] ???
+### 10:55 through 13:10
+    [x] ???
